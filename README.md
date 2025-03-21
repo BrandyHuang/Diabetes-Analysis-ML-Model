@@ -30,6 +30,17 @@ key risk factors of different age groups and see the impact of age factor in dia
 | Age_Older                   | 1.797    |
 | Age_Senior                  | 1.256    |
 
+### Regression Coefficients
+| Feature                   | Coef.   | Std. Err. | z       | P>|z|  | [0.025  | 0.975]  |
+|---------------------------|--------:|----------:|--------:|------:|--------:|--------:|
+| **const**                 | -2.5591 | 0.2470    | -10.3598 | 0.0000 | -3.0432 | -2.0749 |
+| **Pregnancies**           | 0.0602  | 0.0294    | 2.0464  | 0.0407 | 0.0025  | 0.1179  |
+| **Insulin**               | 0.0048  | 0.0011    | 4.5791  | 0.0000 | 0.0028  | 0.0069  |
+| **DiabetesPedigreeFunction** | 0.9293  | 0.2500    | 3.7166  | 0.0002 | 0.4392  | 1.4193  |
+| **Age_Middle-aged**       | 1.0220  | 0.2144    | 4.7677  | 0.0000 | 0.6019  | 1.4422  |
+| **Age_Older**             | 0.9090  | 0.2960    | 3.0713  | 0.0021 | 0.3289  | 1.4890  |
+| **Age_Senior**            | -0.4297 | 0.4803    | -0.8947 | 0.3710 | -1.3711 | 0.5117  |
+
 ---
 
 #### **Dropped Features Due to High VIF**
