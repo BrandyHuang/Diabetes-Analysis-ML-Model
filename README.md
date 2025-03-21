@@ -32,7 +32,7 @@ key risk factors of different age groups and see the impact of age factor in dia
 
 ---
 
-## **Dropped Features Due to High VIF**
+#### **Dropped Features Due to High VIF**
 - **BMI** (VIF: 34.92)
 - **BloodPressure** (VIF: 20.71)
 - **Glucose** (VIF: 13.48)
@@ -40,13 +40,20 @@ key risk factors of different age groups and see the impact of age factor in dia
 
 ---
 
-## **Final Features After Dropping High VIF Terms**
+####  **Final Features After Dropping High VIF Terms**
 `['Pregnancies', 'Insulin', 'DiabetesPedigreeFunction', 'Age_Middle-aged', 'Age_Older', 'Age_Senior']`
 
-| Image 1 | Image 2 |
+### Model Evaluation Point Metric
+| Logistic Regression | Random Forest |
 |---------|---------|
-| ![Alt1](image1.png) | ![Alt2](image2.png) |
+| ![Alt1](Photo/Logistic.png) | ![Alt2](Photo/RF.png) |
 
+### Model Evaluation AUCPRC
+| Logistic Regression | Random Forest |
+|---------|---------|
+| ![Alt1](Photo/Lo_AUCPRC.png) | ![Alt2](Photo/RF_AUCPRC.png) |
+
+### Insights
 Glucose was the strongest predictor, signaling impaired sugar metabolism, with BMI, insulin
 levels, and DPF also playing key roles, however, they might be related to other factors as they
 show high correlation with other factors. Age increased diabetes risk, especially after 35, but
