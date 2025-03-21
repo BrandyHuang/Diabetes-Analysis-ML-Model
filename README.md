@@ -41,7 +41,6 @@ key risk factors of different age groups and see the impact of age factor in dia
 | **Age_Older**             | 0.9090  | 0.2960    | 3.0713  | 0.0021 | 0.3289  | 1.4890  |
 | **Age_Senior**            | -0.4297 | 0.4803    | -0.8947 | 0.3710 | -1.3711 | 0.5117  |
 
----
 
 #### **Dropped Features Due to High VIF**
 - **BMI** (VIF: 34.92)
