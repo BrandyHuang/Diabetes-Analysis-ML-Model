@@ -42,7 +42,7 @@ key risk factors of different age groups and see the impact of age factor in dia
 ### Regression Coefficients
 ![Logistic results](Photo/Lo_Result.png)
 
-### Feature Importance of Different Age Groups
+### Feature Importance of Different Age Groups (From Random Forest ML Model)
 ![RF results](Photo/RF_Feature.png)
 
 ### Model Evaluation Point Metric
