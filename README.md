@@ -1,6 +1,6 @@
 # Diabetes Analysis Using Machine Learning Models
 
-## Project description
+## Project Description
 This project uses the Pima Indians Diabetes Database and it aims to predict type 2 diabetes
 based on health metrics, including glucose, BMI, blood pressure, insulin, age, pregnancies, skin
 thickness, and diabetes pedigree function (genetic risk score). Furthermore, it helps to predict
