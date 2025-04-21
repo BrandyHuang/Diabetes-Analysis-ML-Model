@@ -13,6 +13,9 @@ key risk factors of different age groups and see the impact of age factor in dia
 * Random forest: random forest can solve the problem of multicollinearity and it is used for
   better predictive accuracy
 
+## Data Visualization
+![Exploratory Data Analysis](Photo/EDA.png)
+
 ## Key Insights
 
 ### Initial VIF Values
